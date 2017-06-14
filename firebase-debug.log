@@ -1,0 +1,29 @@
+[debug] [2017-06-14T13:51:11.159Z] ----------------------------------------------------------------------
+[debug] [2017-06-14T13:51:11.162Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\K Luu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-14T13:51:11.162Z] CLI Version:  3.9.1
+[debug] [2017-06-14T13:51:11.162Z] Platform:     win32
+[debug] [2017-06-14T13:51:11.162Z] Node Version: v6.10.3
+[debug] [2017-06-14T13:51:11.163Z] Time:         Wed Jun 14 2017 09:51:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-14T13:51:11.163Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-14T13:51:11.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-14T13:51:11.175Z] > authorizing via signed-in user
+[debug] [2017-06-14T13:51:11.179Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-14T13:51:11.180Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/TN_IPVtdFl0OWV9t0-qIYU6sc9OgEaH6vixBHaNVLmY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jun 14 2017 09:51:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-14T13:51:11.470Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T13:51:11.514Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mappetite-88939  
+ Wed Jun 14 2017 09:51:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-14T13:51:12.414Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T13:51:12.416Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mappetite-88939/tokens  
+ Wed Jun 14 2017 09:51:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-14T13:51:13.040Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'mappetite-88939'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
