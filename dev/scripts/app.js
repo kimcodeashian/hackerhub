@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProfileHeader from '/components/ProfileHeader';
-import ProfileGallery from '/components/ProfileGallery';
+import ProfileHeader from './components/ProfileHeader';
+import ProfileGallery from './components/ProfileGallery';
+import NavButtons from './components/NavButtons';
 import { default as swal } from 'sweetalert2';
 
   // Initialize Firebase
@@ -321,7 +322,7 @@ class App extends React.Component {
 							<img id="output"/>
 							<textarea placeholder="Photo Caption" onChange={this.handleChange} maxLength="200" type="text" name="note"></textarea>
 							<button className="addPost" onClick={this.handlePostSubmit}> Add Post</button>
-							<button className="closeModal" onClick={this.hideNewPostPrompt}> X </button>
+							<button className="closeModal" onClick={this.hideNewPostPrompt}><i className="fa fa-times" aria-hidden="true"></i></button>
 						</form>
 						
 					</div>

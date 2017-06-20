@@ -29,8 +29,8 @@ export default class ProfileGallery extends React.Component {
 				return (
 					<div className="modal">
 						<div className="overlay" onClick={this.closeActivePost} ></div>
-						<div className="bigPost clearfix"> 
-							<img className="profilePic"src={post.profilePic} alt=""/>
+						<div className="bigPost"> 
+							<img className="profilePic" src={post.profilePic} alt=""/>
 							<h3 className="name" onClick={()=>this.props.grabUsersInfo(post.userId)}> {post.name}</h3>
 							<p className="postLocation"><i className="fa fa-map-marker" aria-hidden="true"></i>{post.location}</p>
 							<img className="postPic" src={post.photo}  alt=""/>
@@ -44,13 +44,13 @@ export default class ProfileGallery extends React.Component {
 
 		if (this.props.postList.length == 0) {
 			return (
-				<h2 className="noPosts clearfix">Nothing to see here! <i className="fa fa-frown-o" aria-hidden="true"></i></h2>
+				<h2 className="noPosts">Nothing to see here! <i className="fa fa-frown-o" aria-hidden="true"></i></h2>
 			)
 		} 
 		else { 
 			if (this.props.profileState === 'ownProfile') {
 				return (
-					<ul className="profileGallery clearfix">
+					<ul className="profileGallery">
 						{expandPost(this.state.activePost)}
 						{this.props.postList.map((post) => {
 							return (
@@ -64,7 +64,7 @@ export default class ProfileGallery extends React.Component {
 			else{
 				if (this.props.postView) {
 					return (
-					<ul className="profileGallery clearfix">
+					<ul className="profileGallery">
 						{expandPost(this.state.activePost)}
 						{this.props.postList.map((post) => {
 							return (
@@ -79,12 +79,12 @@ export default class ProfileGallery extends React.Component {
 							{/*mapping over each object in the array list of posts,*/}
 							{this.props.postList.map((post) => {
 								return (
-								<li className="bigPost clearfix"> 
+								<li className="bigPost"> 
 									<img className="profilePic"src={post.profilePic} alt=""/>
 									<h3 className="name" onClick={()=>this.props.grabUsersInfo(post.userId)}> {post.name}</h3>
 									<p className="postLocation"><i className="fa fa-map-marker" aria-hidden="true"></i>{post.location}</p>
 									<img className="postPic" src={`${post.photo}`}  alt=""/>
-									<p className="postName"><i className="fa fa-commenting-o" aria-hidden="true"></i>{post.note}</p>
+									<p className="postNote"><i className="fa fa-commenting-o" aria-hidden="true"></i>{post.note}</p>
 								</li>
 								)	
 							})}

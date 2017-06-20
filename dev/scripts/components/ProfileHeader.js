@@ -4,7 +4,7 @@ export default class ProfileHeader extends React.Component {
 	render() {
 		const addPostButton = () => {
 			if (this.props.currentPage === 'ownProfile') {
-				return (<button className="addPost" onClick={this.props.showNewPost}><i className="fa fa-plus" aria-hidden="true"></i>New Post</button>)
+				return (<button className="addPost" onClick={this.props.showNewPost}><i className="fa fa-plus" aria-hidden="true"></i><span id="newPost">New Post</span></button>)
 			}
 		}
 		return (

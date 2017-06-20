@@ -1,0 +1,56 @@
+.closeModal{
+		position: absolute;
+		position: absolute;
+		right: -2px;
+		top: 0;
+		margin: 0;
+		border: 1px solid black;
+		padding: 4px 12px;
+}
+
+.modal {
+	.overlay {
+		z-index: 20;
+		position: fixed;
+		background: rgba(0,0,0,0.8);
+		left:0;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+	}
+	.bigPost {
+		z-index: 30;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 400px;
+		max-width: 500px;
+		margin: 0;
+		width: 52%;
+		.postPic {
+		    height: 49.5vw;
+		    padding: 17px;
+		    max-height: 470px;
+		    min-height: 356px;
+		}
+	}
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.modal {
+		.bigPost {
+			min-width: 90%;
+			.postPic {
+				height: 80.5vw;
+				min-height: 260px;
+			}
+		}
+	}
+	.closeModal {
+		padding: 2px 5px;
+	}
+}
