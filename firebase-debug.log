@@ -1,77 +1,21 @@
-[debug] [2017-06-14T14:47:29.999Z] ----------------------------------------------------------------------
-[debug] [2017-06-14T14:47:30.002Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\K Luu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2017-06-14T14:47:30.002Z] CLI Version:  3.9.1
-[debug] [2017-06-14T14:47:30.002Z] Platform:     win32
-[debug] [2017-06-14T14:47:30.002Z] Node Version: v6.10.3
-[debug] [2017-06-14T14:47:30.003Z] Time:         Wed Jun 14 2017 10:47:30 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T14:47:30.003Z] ----------------------------------------------------------------------
+[debug] [2017-06-20T04:15:49.937Z] ----------------------------------------------------------------------
+[debug] [2017-06-20T04:15:49.939Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\K Luu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-06-20T04:15:49.940Z] CLI Version:  3.9.1
+[debug] [2017-06-20T04:15:49.940Z] Platform:     win32
+[debug] [2017-06-20T04:15:49.940Z] Node Version: v6.10.3
+[debug] [2017-06-20T04:15:49.940Z] Time:         Tue Jun 20 2017 00:15:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-20T04:15:49.940Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-06-14T14:47:30.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-14T14:47:30.017Z] > authorizing via signed-in user
-[debug] [2017-06-14T14:47:30.019Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-06-14T14:47:30.020Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/TN_IPVtdFl0OWV9t0-qIYU6sc9OgEaH6vixBHaNVLmY',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Wed Jun 14 2017 10:47:30 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T14:47:35.139Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-14T14:47:35.240Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mappetite-88939  
- Wed Jun 14 2017 10:47:35 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T14:47:37.026Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-14T14:47:37.030Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mappetite-88939/tokens  
- Wed Jun 14 2017 10:47:37 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T14:47:38.610Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-20T04:15:49.953Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-20T04:15:49.953Z] > authorizing via signed-in user
+[debug] [2017-06-20T04:15:49.955Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mappetite-88939  
+ Tue Jun 20 2017 00:15:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-20T04:15:50.578Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-20T04:15:50.580Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mappetite-88939/tokens  
+ Tue Jun 20 2017 00:15:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-20T04:15:50.871Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'mappetite-88939'...
 [info] 
 [info] i  deploying hosting
 [info] i  hosting: preparing . directory for upload...
-[debug] [2017-06-14T14:48:18.119Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/mappetite-88939/uploads/-Kmb3lMQ_z_Mz0H1gY16?fileCount=24413&message=  
- Wed Jun 14 2017 10:48:18 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:06:37.962Z] ----------------------------------------------------------------------
-[debug] [2017-06-14T15:06:37.965Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\K Luu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2017-06-14T15:06:37.965Z] CLI Version:  3.9.1
-[debug] [2017-06-14T15:06:37.965Z] Platform:     win32
-[debug] [2017-06-14T15:06:37.965Z] Node Version: v6.10.3
-[debug] [2017-06-14T15:06:37.966Z] Time:         Wed Jun 14 2017 11:06:37 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:06:37.966Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-14T15:06:37.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-14T15:06:37.977Z] > authorizing via signed-in user
-[debug] [2017-06-14T15:06:37.980Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mappetite-88939  
- Wed Jun 14 2017 11:06:37 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:06:40.659Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-14T15:06:40.662Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mappetite-88939/tokens  
- Wed Jun 14 2017 11:06:40 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:06:42.157Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Deploying to 'mappetite-88939'...
-[info] 
-[info] i  deploying hosting
-[info] i  hosting: preparing . directory for upload...
-[debug] [2017-06-14T15:07:17.448Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/mappetite-88939/uploads/-Kmb87In1F37sFbMiHTM?fileCount=24413&message=  
- Wed Jun 14 2017 11:07:17 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:08:55.256Z] ----------------------------------------------------------------------
-[debug] [2017-06-14T15:08:55.259Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\K Luu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2017-06-14T15:08:55.260Z] CLI Version:  3.9.1
-[debug] [2017-06-14T15:08:55.260Z] Platform:     win32
-[debug] [2017-06-14T15:08:55.260Z] Node Version: v6.10.3
-[debug] [2017-06-14T15:08:55.260Z] Time:         Wed Jun 14 2017 11:08:55 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:08:55.261Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2017-06-14T15:08:55.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-14T15:08:55.275Z] > authorizing via signed-in user
-[debug] [2017-06-14T15:08:55.278Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mappetite-88939  
- Wed Jun 14 2017 11:08:55 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:09:01.803Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-14T15:09:01.808Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mappetite-88939/tokens  
- Wed Jun 14 2017 11:09:01 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-06-14T15:09:03.455Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Deploying to 'mappetite-88939'...
-[info] 
-[info] i  deploying hosting
-[info] i  hosting: preparing . directory for upload...
-[debug] [2017-06-14T15:09:40.786Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/mappetite-88939/uploads/-Kmb8ef1sevhJ22gndGv?fileCount=24413&message=  
- Wed Jun 14 2017 11:09:40 GMT-0400 (Eastern Daylight Time)
