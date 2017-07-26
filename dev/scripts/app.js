@@ -364,6 +364,11 @@ class App extends React.Component {
 				<NavButtons loggedIn = {this.state.loggedIn} login={this.login} logout={this.logout} changePage={this.changePage} currentPage={this.state.currentPage} changeView={this.changeView}/>
 				{newPost()}
 				{showPage()}
+				<footer>
+					<div className="wrapper">
+						<p>2017 | <a href="http://kimberlyluu.ca">Kimberly Luu</a></p>
+					</div>
+				</footer>
 			</main>
 		)
 	}

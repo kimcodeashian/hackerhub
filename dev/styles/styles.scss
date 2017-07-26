@@ -12,6 +12,10 @@ img {
 	display: block;
 	object-fit: cover;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 html {
 	background: #efefef;
 	font-family: $profileFont;
@@ -113,6 +117,9 @@ button {
 			margin-left: 5px;
 		}
 	}
+}
+footer {
+	text-align: center;
 }
 
 /* Portrait tablet and small desktops */
